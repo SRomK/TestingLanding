@@ -1,27 +1,12 @@
 import React from "react";
+import Eva01 from "/workspace/react-hello/src/img/-EVA-01-neon-genesis-evangelion-38625280-200-200.jpeg";
 
 const Navbar = () => {
 	return (
 		<>
-		<Nav> 
-			<NavLink>
-
-			<h1>Team Evangelion</h1>
-			</NavLink>
-			<bars/>
-			<NavMenu>
-				<NavLink to="/GitHub" activeStyle>GitHub</NavLink>
-				<NavLink to="/LinkedIn" activeStyle>LinkedIn</NavLink>
-				<NavLink to="/Blog" activeStyle>Blog</NavLink>
-				<NavLink to="/ContactUs" activeStyle>ContactUs</NavLink>
-
-			</NavMenu>
-			<NavBtn>
-				<NavBtnLink to="/signin">
-				Newsletter
-				</NavBtnLink>
-			</NavBtn>
-		</Nav>
+		<div>
+			<img src={Eva01} alt="Eva" />		
+		</div>
 		</>
 	);
 };
